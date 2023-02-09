@@ -25,7 +25,7 @@ export default function Dirk(props) {
 
 
   return (
-    <group {...props} dispose={null} position={[3, -1, -3]} rotation={[Math.PI / 2, -Math.PI, Math.PI / 6]} scale={3}>
+    <group {...props} dispose={null} position={[3, -1, -3]} rotation={[-Math.PI / 2, -Math.PI / 2, Math.PI / 6]} scale={3}>
       <mesh geometry={nodes.mesh_0.geometry} material={nodes.mesh_0.material} />
       <mesh geometry={nodes.mesh_0_1.geometry} material={nodes.mesh_0_1.material} />
       <mesh geometry={nodes.mesh_0_2.geometry} material={nodes.mesh_0_2.material} />
