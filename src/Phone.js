@@ -46,9 +46,9 @@ export default function Phone(props) {
         <Mask
           id={1}
           ref={wallMask}
-          position={[22, 0, 0]}
+          position={[0, 0, 0]}
           rotation-y={[Math.PI / 2]}
-          // colorWrite
+          colorWrite={true}
           // depthWrite
         >
           <planeGeometry args={[88, 150]} />
