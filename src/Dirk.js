@@ -8,7 +8,7 @@ import { useGLTF, useMask } from '@react-three/drei'
 
 
 
-export function Dirk(props) {
+export default function Dirk(props) {
 
 
 
