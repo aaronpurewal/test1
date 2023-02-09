@@ -4,7 +4,7 @@ import { useMask, ScrollControls, useScroll, Stage, Float } from '@react-three/d
 import Phone from './Phone'
 import PhoneBackside from './PhoneBackside'
 import { DoubleSide } from 'three'
-import Robot from './Robot'
+import Dirk from './Dirk'
 import Ship from './Ship'
 
 export function App() {
@@ -40,7 +40,7 @@ const FrontSide = () => {
   return (
     <group>
       <group ref={ref}>
-        <Robot maskId={1} />
+        <Dirk maskId={1} />
         <Ground maskId={2} />
       </group>
       <Phone screenMaskId={2} popoutMaskId={1} />
