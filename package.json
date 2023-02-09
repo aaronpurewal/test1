@@ -1,0 +1,33 @@
+{
+  "name": "phone-flip-3d",
+  "version": "1.0.0",
+  "description": "Using the stencil mask to cut out areas of the screen.",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@react-three/csg": "2.0.7",
+    "@react-three/drei": "9.56.19",
+    "@react-three/fiber": "8.11.0",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.9",
+    "@types/three": "0.149.0",
+    "leva": "0.9.34",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "5.0.1",
+    "three": "0.147.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
