@@ -49,7 +49,7 @@ export default function Phone(props) {
           position={[-22, 0, 0]}
           rotation-y={[Math.PI / 2]}
           colorWrite={true}
-          // depthWrite
+          depthWrite={true}
         >
           <planeGeometry args={[88, 150]} />
           <meshBasicMaterial color="red" side={BackSide} />
