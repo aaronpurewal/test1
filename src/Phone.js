@@ -38,7 +38,7 @@ export default function Phone(props) {
           geometry={nodes.Rectangle_2.geometry}
           position={[-0.02, 0.08, -2.08]}
           rotation-y={Math.PI}
-          // colorWrite
+          colorWrite={true}
           // depthWrite
         >
           <meshBasicMaterial color="pink" side={FrontSide} />
