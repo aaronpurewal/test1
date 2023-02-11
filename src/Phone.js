@@ -51,7 +51,7 @@ export default function Phone(props) {
           //colorWrite={true}
           //depthWrite={true}
         >
-          <planeGeometry args={[0, 150]} />
+          <planeGeometry args={[-300, 150]} />
           <meshBasicMaterial color="red" side={BackSide} />
         </Mask>
         <Mask id={2} geometry={nodes.Rectangle_2.geometry} position={[-0.02, 0.08, -2.08]}>
