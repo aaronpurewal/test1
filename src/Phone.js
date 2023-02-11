@@ -43,10 +43,13 @@ export default function Phone(props) {
         >
           <meshBasicMaterial color="pink" side={FrontSide} />
         </Mask>
+
+
+
         <Mask
           id={1}
           ref={wallMask}
-          position={[-22, 0, 0]}
+          position={[-22, 50, 50]}
           rotation-y={[Math.PI / 2]}
           colorWrite={true}
           //depthWrite={true}
@@ -54,6 +57,8 @@ export default function Phone(props) {
           <planeGeometry args={[88, 150]} />
           <meshBasicMaterial color="blue" side={BackSide} />
         </Mask>
+
+
 
         <Mask 
         id={2} 
